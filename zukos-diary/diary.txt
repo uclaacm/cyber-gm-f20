@@ -1,0 +1,3 @@
+You've hit the jackpot. You've just found Prince Zuko's diary and can't wait to read all of his deepest, darkest secrets - and of course make fun of him for it and hold it against him as blackmail. However, it seems he's written it in some kind of twice encrypted version of the English language. The first encryption method you know - Azula told you that he uses a XOR encryption after his first encoding. He always XOR's by 26 for some reason.Weird. You flip to a random page and discover his favorite song. He really is his Uncle's boy!
+
+22 31 27 12 31 9 _ 28 8 21 23 _ 14 18 31 _ 12 19 20 31

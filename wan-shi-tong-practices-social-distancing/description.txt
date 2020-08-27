@@ -1,0 +1,10 @@
+Due to recent events Wan Shi Tong found that his library had to close 
+to the public until further notice, and now must operate virtually. 
+One of his fox librarians took note of all the books in the library, 
+but it's all out of order. Can you put the titles in alphabetical 
+order? A simple Linux command should suffice.
+
+Wan Shi Tong is nothing but meticulous, and wants to make sure you 
+did your job correctly. "What is the 13th title on the newly ordered 
+list?" he asks. This title will be the key to solving this question, 
+and will prove that you are ready to move on to the next category.

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Cabbages!</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    </head>
+
+    <body>
+        <section class="hero is-primary is-medium is-bold">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title large">
+                    My Cabbage Blog
+                    </h1>
+                    <h2 class="subtitle">
+                    A humble merchant's journey through the Earth Nation
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <br/>
+        <div class="columns">
+            <div class="column is-1"></div>
+            <div class="column is-10">
+                <div class="tile is-ancestor">
+                    <div class="tile is-vertical is-8">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                            <article class="tile is-child notification is-primary">
+                                <p class="title">Leafing my Farm</p>
+                                <figure class="image ">
+                                    <img src="{{ url_for('static', filename='cabbagefarm.jpg') }}">
+                                </figure>
+                                <br/>
+                                <p class="subtitle">While a good farmer stays true to his roots, it's time for me to get plucked and see the world.</p>
+                            </article>
+                            <article class="tile is-child notification is-warning">
+                                <p class="title">Shooed From Omashu</p>
+                                <figure class="image ">
+                                    <img src="{{ url_for('static', filename='omashu.gif') }}">
+                                </figure>
+                                <br/>
+                                <p class="subtitle">Looks impressive, but what kind of city doesn't let an honest cabbage merchant in??</p>
+                                <p class="subtitle">I will admit though, if I could transport my cabbages on their mail system...the speed of those cabbage carts!</p>
+                            </article>
+                        </div>
+                        <div class="tile is-parent">
+                            <article class="tile is-child notification is-info">
+                                <p class="title">Ba Sing Se</p>
+                                <figure class="image ">
+                                    <img src="{{ url_for('static', filename='wall.png') }}">
+                                </figure>
+                                <br/>
+                                <p class="subtitle">Like a cabbage, this city has layers. Just trying to enter the city was a whirlwind... I wanted to enter by ferry, but the line was so long I could feel myself wilting along with my cabbages. Then they tell me they won't let me board in case I have cabbage slugs! What even are cabbage slugs? Some weird hybrid of snail slugs and slug worms? </p>
+                                <p class="subtitle">Once I got into the city I couldn't believe my eyes though. The modernity of the city! Perhaps I could learn a thing from these city folks and start my own business...</p>
+                                <figure class="image ">
+                                    <img src="{{ url_for('static', filename='sunset.jpg') }}">
+                                </figure>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification is-danger">
+                            <p class="title">My 888th Cabbage!!!</p>
+                            <p class="subtitle">It has been a wild wild journey, and I've lost many cabbages, but today my heart burst as I made this sale. Wang Fire, I hope you enjoy my cabbage. </p>
+                        </article>
+                        </div>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification is-success">
+                        <div class="content">
+                            <p class="title">Follow my <a href="/onlycabbages">OnlyCabbages</a> for the Freshest Content</p>
+                            <figure class="image ">
+                                <img src="{{ url_for('static', filename='cabbageluv.jpg') }}">
+                            </figure><br/>
+                            <figure class="image ">
+                                <img src="{{ url_for('static', filename='luv.png') }}">
+                            </figure><br/>
+                            <figure class="image ">
+                                <img src="{{ url_for('static', filename='cabbage.png') }}">
+                            </figure>
+                        </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-1"></div>
+        </div>
+    </body>
+</html>
