@@ -1,0 +1,24 @@
+Up on the hills of Ba Sing Se, you happen to stumble upon a
+weird shrine of sorts. Surrounded by incense and caricatures
+of pigs are some strange symbols. What could they mean? You
+could tell that the pig drawings represent ancient *pigpens*
+from before the hundred year war, but there must be
+something more....
+
++     +---+     +   x   +---+ \   /
+| *   |   |     |  / \  |   |  \ /
++---+ +---+ +---+ /   \ +---+   x
+
++---+ +---+ +---+ +---+
+|     | *   | *     * |
++---+ +     +---+ +---+
+
+ \    +---+ +---+
+  x   |   | |   |
+ /    +   + +---+
+
+  x   +---+ +---+ +---+
+ / \  |     | * | |   |
+/   \ +     +---+ +---+
+
+Make sure to separate each word with an underscore.
